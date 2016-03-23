@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\matrix.cpp">
+      <Filter>std\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics.cpp">
+      <Filter>std\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pyramid.cpp">
+      <Filter>pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="src\local_laplacian.cpp">
+      <Filter>pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="src\remapping.cpp">
+      <Filter>pyramid</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="std">
+      <UniqueIdentifier>{2408024c-6f6e-42a1-af9f-0fd2ff5e1020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="std\math">
+      <UniqueIdentifier>{415200ca-60cd-4186-b607-f9b1d326cbdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="std\graphics">
+      <UniqueIdentifier>{24779f2c-86af-47b8-a0bf-2a651d014140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pyramid">
+      <UniqueIdentifier>{a94573d8-8913-4742-b931-592bb60daaa3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\app.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\operations.h">
+      <Filter>std\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matrix.h">
+      <Filter>std\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\point.h">
+      <Filter>std\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdafx.h">
+      <Filter>std\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\element.h">
+      <Filter>std\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics.h">
+      <Filter>std\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pyramid.h">
+      <Filter>pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="src\local_laplacian.h">
+      <Filter>pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="src\comp5900.h">
+      <Filter>std</Filter>
+    </ClInclude>
+    <ClInclude Include="src\remapping.h">
+      <Filter>pyramid</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
