@@ -1,0 +1,1 @@
+Reference implementation for smooth signed distance field textures.
